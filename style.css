@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(155, 245, 90);
+}
+#title{
+    background-color: antiquewhite;
+    font-weight:bolder;
+    font-size: 35px;
+    color: blue;
+}
+#show_sketch{
+    float: right;
+
+}
+#score{
+    font-weight:bolder;
+    font-size: 35px;
+    float:left;
+}
+#timer{
+    font-weight:bolder;
+    font-size: 35px;
+    float: right;
+}
+#label{
+    font-weight:bolder;
+    font-size: 35px;
+}
+#Confidence{
+    font-weight:bolder;
+    font-size: 35px;
+}
+#h3{
+    font-weight:bolder;
+    font-size: 35px;
+    color: red;
+   
+}
+canvas 
+{
+  border:2px solid white;
+  border-radius:20px;
+  margin-top:135px;
+  box-shadow:5px 5px 5px grey;
+  box-shadow: 1px 1px 38px #ffffff;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+
+from {box-shadow: 1px 1px 38px red;}
+to {box-shadow: 1px 1px 38px green;}
+
+}
